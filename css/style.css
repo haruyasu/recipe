@@ -24,8 +24,9 @@ body {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 400;
     line-height: 1.6;
-    color: #655A56;
-    background-image: linear-gradient(to right bottom, rgb(240, 180, 52), rgb(124, 99, 15));
+    color: #000000;
+    background-color: #EDF7F6;
+    /* background-image: linear-gradient(to right bottom, rgb(240, 180, 52), rgb(124, 99, 15)); */
     background-size: cover;
     background-repeat: no-repeat;
     min-height: calc(100vh - 2 * 4vw);
@@ -34,10 +35,10 @@ body {
 .container {
     max-width: 120rem;
     margin: 4vw auto;
-    background-color: #fff;
+    background-color: #F6A545;
     border-radius: 6px;
     overflow: hidden;
-    box-shadow: 0 2rem 6rem 0.5rem rgba(101, 90, 86, 0.2);
+    /* box-shadow: 0 2rem 6rem 0.5rem rgba(101, 90, 86, 0.2); */
     display: grid;
     grid-template-rows: 10rem minmax(100rem, auto);
     grid-template-columns: 1.1fr 2fr 1.1fr;
@@ -56,7 +57,8 @@ body {
 .btn-small,
 .btn-small:link,
 .btn-small:visited {
-    background-image: linear-gradient(to right bottom, #FBDB89, #F48982);
+    /* background-image: linear-gradient(to right bottom, #FBDB89, #D81159); */
+    background-color: #D81159;
     border-radius: 10rem;
     border: none;
     text-transform: uppercase;
@@ -134,7 +136,7 @@ body {
 }
 
 .btn-inline:hover {
-    color: #F48982;
+    color: #D81159;
     background-color: #F2EFEE;
 }
 
@@ -153,7 +155,7 @@ body {
 .btn-tiny svg {
     height: 100%;
     width: 100%;
-    fill: #F59A83;
+    fill: #FFFFFF;
     transition: all .3s;
 }
 
@@ -162,12 +164,12 @@ body {
 }
 
 .btn-tiny:hover svg {
-    fill: #F48982;
+    fill: #D81159;
     transform: translateY(-1px);
 }
 
 .btn-tiny:active svg {
-    fill: #F48982;
+    fill: #D81159;
     transform: translateY(0);
 }
 
@@ -178,7 +180,7 @@ body {
 .heading-2 {
     font-size: 1.8rem;
     font-weight: 600;
-    color: #F59A83;
+    color: #D81159;
     text-transform: uppercase;
     margin-bottom: 2.5rem;
     text-align: center;
@@ -220,7 +222,7 @@ body {
 
 .header {
     grid-area: head;
-    background-color: #F9F5F3;
+    /* background-color: #F9F5F3; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -228,7 +230,7 @@ body {
 
 .header__logo {
     margin-left: 4rem;
-    height: 4.5rem;
+    width: 150px;
     display: block;
 }
 
@@ -326,19 +328,19 @@ body {
     align-items: center;
     padding: 1.5rem 3rem;
     transition: all .3s;
-    border-right: 1px solid #fff;
+    /* border-right: 1px solid #fff; */
     text-decoration: none;
 }
 
 .results__link:hover,
 .likes__link:hover {
-    background-color: #F9F5F3;
+    background-color: #D81159;
     transform: translateY(-2px);
 }
 
 .results__link--active,
 .likes__link--active {
-    background-color: #F9F5F3;
+    background-color: #D81159;
 }
 
 .results__fig,
@@ -361,7 +363,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    background-image: linear-gradient(to right bottom, #FBDB89, #F48982);
+    background-image: linear-gradient(to right bottom, #FBDB89, #D81159);
     opacity: .4;
 }
 
@@ -377,7 +379,7 @@ body {
 .results__name,
 .likes__name {
     font-size: 1.3rem;
-    color: #F59A83;
+    color: #FFFFFF;
     text-transform: uppercase;
     font-weight: 600;
     margin-bottom: .3rem;
@@ -386,7 +388,7 @@ body {
 .results__author,
 .likes__author {
     font-size: 1.1rem;
-    color: #968B87;
+    color: #FFFFFF;
     text-transform: uppercase;
     font-weight: 600;
 }
@@ -416,8 +418,8 @@ body {
 }
 
 .recipe {
-    background-color: #F9F5F3;
-    border-top: 1px solid #fff;
+    /* background-color: #F9F5F3; */
+    /* border-top: 1px solid #fff; */
 }
 
 .recipe__fig {
@@ -427,7 +429,7 @@ body {
     transform-origin: top;
 }
 
-.recipe__fig::before {
+/* .recipe__fig::before {
     content: '';
     display: block;
     height: 100%;
@@ -435,9 +437,9 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    background-image: linear-gradient(to right bottom, #FBDB89, #F48982);
+    background-image: linear-gradient(to right bottom, #FBDB89, #D81159);
     opacity: .6;
-}
+} */
 
 .recipe__img {
     width: 100%;
@@ -464,7 +466,8 @@ body {
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
     padding: 1.3rem 2rem;
-    background-image: linear-gradient(to right bottom, #FBDB89, #F48982);
+    /* background-image: linear-gradient(to right bottom, #FBDB89, #D81159); */
+    background-color: #7DD181;
 }
 
 .recipe__details {
@@ -487,7 +490,7 @@ body {
 .recipe__info-icon {
     height: 2rem;
     width: 2rem;
-    fill: #F59A83;
+    fill: #D81159;
     margin-right: 1rem;
 }
 
@@ -512,7 +515,8 @@ body {
 }
 
 .recipe__love {
-    background-image: linear-gradient(to right bottom, #FBDB89, #F48982);
+    /* background-image: linear-gradient(to right bottom, #FBDB89, #D81159); */
+    background-color: #D81159;
     border-radius: 50%;
     border: none;
     cursor: pointer;
@@ -592,7 +596,7 @@ body {
     text-align: center;
     width: 90%;
     margin-bottom: 3rem;
-    color: #968B87;
+    color: #000000;
 }
 
 .recipe__by {
